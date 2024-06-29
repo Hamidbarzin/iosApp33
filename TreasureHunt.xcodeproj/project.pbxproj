@@ -14,6 +14,8 @@
 		38B2044A2C24ECDB0030CA7A /* TreasureHunt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38B204482C24ECDB0030CA7A /* TreasureHunt.xcdatamodeld */; };
 		38B2044C2C24ECDB0030CA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B2044B2C24ECDB0030CA7A /* Assets.xcassets */; };
 		38B2044F2C24ECDB0030CA7A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 38B2044E2C24ECDB0030CA7A /* Base */; };
+		9E8809972C2F6E2A00B512DE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8809962C2F6E2A00B512DE /* MapViewController.swift */; };
+		9E8809992C2F6E3800B512DE /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8809982C2F6E3700B512DE /* Treasure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		38B2044B2C24ECDB0030CA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38B2044E2C24ECDB0030CA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38B204502C24ECDB0030CA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8809962C2F6E2A00B512DE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9E8809982C2F6E3700B512DE /* Treasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				38B2043F2C24ECDB0030CA7A /* AppDelegate.swift */,
 				38B204412C24ECDB0030CA7A /* SceneDelegate.swift */,
+				9E8809962C2F6E2A00B512DE /* MapViewController.swift */,
 				38B204432C24ECDB0030CA7A /* TreasureList.swift */,
+				9E8809982C2F6E3700B512DE /* Treasure.swift */,
 				38B204452C24ECDB0030CA7A /* Main.storyboard */,
 				38B2044B2C24ECDB0030CA7A /* Assets.xcassets */,
 				38B2044D2C24ECDB0030CA7A /* LaunchScreen.storyboard */,
@@ -143,7 +149,9 @@
 			files = (
 				38B204442C24ECDB0030CA7A /* TreasureList.swift in Sources */,
 				38B204402C24ECDB0030CA7A /* AppDelegate.swift in Sources */,
+				9E8809992C2F6E3800B512DE /* Treasure.swift in Sources */,
 				38B204422C24ECDB0030CA7A /* SceneDelegate.swift in Sources */,
+				9E8809972C2F6E2A00B512DE /* MapViewController.swift in Sources */,
 				38B2044A2C24ECDB0030CA7A /* TreasureHunt.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
